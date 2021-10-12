@@ -61,6 +61,10 @@ a {
   text-decoration: none;
   color: #000;
 }
+a:hover:not(.nuxt-link-exact-active) {
+  background-color: #B9B9FF80;
+  color: #FFF;
+}
 .nuxt-link-exact-active {
   background-color: #B9B9FF;
   color: #FFF;
