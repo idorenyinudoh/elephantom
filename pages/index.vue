@@ -69,6 +69,12 @@ div
           td Sex
           td Affiliation
           td DoB
+    footer
+      p PAGE 1 OF 10
+      button.icon(disabled) <
+      button.active 1
+      button 2
+      button.icon >
 </template>
 
 <script>
@@ -118,5 +124,42 @@ tr:nth-child(odd) {
 }
 thead tr:first-of-type {
   background-color: #E5E5E5 !important;
+}
+footer {
+  margin: 0;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: #FFF;
+}
+footer p {
+  margin: 0;
+}
+button {
+  background: inherit;
+  border: 1px solid #DFE3E8;
+  border-radius: 20%;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  color: #000;
+}
+button:disabled {
+  background-color: #919EAB;
+  opacity: 0.5;
+}
+button:not(:disabled) {
+  cursor: pointer;
+}
+.active, button:not(:disabled):hover {
+  border-color: #0546E0;
+  color: #0546E0;
+}
+.icon {
+  color: #C4CDD5;
 }
 </style>
