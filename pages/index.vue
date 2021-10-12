@@ -69,12 +69,12 @@ div
           td Sex
           td Affiliation
           td DoB
-    footer
-      p PAGE 1 OF 10
-      button.icon(disabled) <
-      button.active 1
-      button 2
-      button.icon >
+      footer
+        p PAGE 1 OF 10
+        button.icon(disabled) <
+        button.active 1
+        button 2
+        button.icon >
 </template>
 
 <script>
@@ -104,6 +104,7 @@ caption {
 }
 table {
   width: 100%;
+  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.25);
 }
 th, td {
   padding: 0;
