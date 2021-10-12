@@ -12,6 +12,7 @@ nav
     padding-left: calc(15px + 1vw);
     grid-template-columns: repeat(3, max-content);
     column-gap: 20px;
+    align-items: center;
   }
   #image-container {
     width: calc(70px + 2vw);
@@ -24,13 +25,13 @@ nav
 }
 @media screen and (min-width: 1024px) {
   nav {
-    grid-template-rows: auto max-content;
+    grid-template-rows: repeat(3, max-content);
     width: calc(250px + 1vw);
     height: 100vh;
   }
   #image-container {
     width: calc(150px + 1vw);
-    margin: 0 50px;
+    margin: calc(50px + 1vw) 50px;
     padding-top: calc(100% - 100px);
   }
   a {
@@ -40,7 +41,6 @@ nav
 }
 nav {
   display: grid;
-  align-items: center;
   background-color: #DDF;
 }
 #image-container {
