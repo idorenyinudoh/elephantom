@@ -19,7 +19,7 @@ export default {
 @media screen and (min-width: 1024px) {
   #container {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    margin-left: calc(250px + 1vw);
   }
 }
 body {

@@ -25,6 +25,9 @@ nav
 }
 @media screen and (min-width: 1024px) {
   nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     grid-template-rows: repeat(3, max-content);
     width: calc(250px + 1vw);
     height: 100vh;
