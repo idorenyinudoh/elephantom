@@ -58,7 +58,7 @@ a {
   text-decoration: none;
   color: #000;
 }
-.nuxt-link-active {
+.nuxt-link-exact-active {
   background-color: #B9B9FF;
   color: #FFF;
 }
