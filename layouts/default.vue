@@ -16,6 +16,12 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@media screen and (min-width: 1024px) {
+  #container {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+  }
+}
 body {
   margin: 0;
   font-family: 'Overpass', sans-serif;

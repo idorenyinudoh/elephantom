@@ -1,5 +1,5 @@
 <template lang="pug">
-the-header
+the-header(extra="Elephant")
 </template>
 
 <script>
