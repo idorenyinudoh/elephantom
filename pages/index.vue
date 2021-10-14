@@ -93,7 +93,9 @@ main {
   overflow-x: auto;
 }
 caption {
-  margin: 0;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 56px);
   padding: 26px;
   font-size: 18px;
   font-weight: bold;
@@ -103,6 +105,8 @@ caption {
   text-align: left;
 }
 table {
+  position: relative;
+  padding-top: 80px;
   width: 100%;
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.25);
 }
